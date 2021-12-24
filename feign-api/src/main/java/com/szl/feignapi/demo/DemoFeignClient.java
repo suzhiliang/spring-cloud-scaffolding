@@ -1,0 +1,19 @@
+package com.szl.feignapi.demo;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+/**
+ * @ClassName: DemoFeignClient
+ * @Author: SZL
+ * @Date: 2021/12/24 16:25
+ * @Description: TODO
+ * @Version 1.0
+ */
+@FeignClient("core-service-producer")
+public interface DemoFeignClient {
+
+    @GetMapping(value = "/echo/{param}")
+    String echo(@PathVariable String param);
+}
