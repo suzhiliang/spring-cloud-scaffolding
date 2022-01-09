@@ -20,8 +20,13 @@ public class DemoController {
     @Value("${server.port}")
     private int port;
 
+
+    @Value("${scaffolding.name}")
+    private String name;
+
+
     @GetMapping(value = "/echo/{param}")
     public String echo(@PathVariable String param) {
-        return "Hello Nacos Discovery " + param + port;
+        return "Hello Nacos Discovery "  + name + param + port;
     }
 }
