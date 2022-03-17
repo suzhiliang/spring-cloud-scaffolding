@@ -24,7 +24,6 @@ public class DemoController {
 
     @GetMapping("/helloWorld")
     public String helloWorld(){
-
         return demoFeignClient.echo("天王盖地虎");
     }
 
