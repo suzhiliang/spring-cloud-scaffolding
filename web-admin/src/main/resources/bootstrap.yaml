@@ -5,5 +5,6 @@ spring:
         file-extension: yaml
         server-addr: 127.0.0.1:8848
         group: SCAFFOLDING_GROUP
+        namespace: dev-Id
   application:
     name: web-admin
