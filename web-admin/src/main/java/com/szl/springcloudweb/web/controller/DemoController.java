@@ -27,5 +27,10 @@ public class DemoController {
         return demoFeignClient.echo("天王盖地虎");
     }
 
+    @GetMapping("/currentLimiting")
+    public String currentLimiting(){
+        return demoFeignClient.currentLimiting("服务正常！");
+    }
+
 
 }

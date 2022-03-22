@@ -29,4 +29,9 @@ public class DemoController {
     public String echo(@PathVariable String param) {
         return "Hello Nacos Discovery "  + name + param + port;
     }
+
+    @GetMapping(value = "/echo/currentLimiting/{limiting}")
+    public String currentLimiting(@PathVariable String limiting){
+        return "limiting"  + name + limiting + port;
+    }
 }
