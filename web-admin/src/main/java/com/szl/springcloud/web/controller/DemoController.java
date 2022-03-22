@@ -1,4 +1,4 @@
-package com.szl.springcloudweb.web.controller;
+package com.szl.springcloud.web.controller;
 
 import com.szl.feignapi.demo.DemoFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;

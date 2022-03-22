@@ -21,7 +21,7 @@ public class DemoController {
     private int port;
 
 
-    @Value("${scaffolding.name}")
+    @Value("${scaffolding.name:scaffolding}")
     private String name;
 
 

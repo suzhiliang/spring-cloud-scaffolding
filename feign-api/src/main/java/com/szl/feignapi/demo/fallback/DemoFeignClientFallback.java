@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @ClassName: DemoFeginClientFallback
  * @Author: SZL
  * @Date: 2022/3/22 21:08
- * @Description: TODO
+ * @Description: 服务降级方法
  * @Version 1.0
  */
 @Component
