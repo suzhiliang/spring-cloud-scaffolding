@@ -26,8 +26,7 @@ import java.util.Map;
  * @ClassName: GlobalSentinelFeign
  * @Author: SZL
  * @Date: 2022/3/27 16:16
- * @Description: 重新实现SentinelFeign，由于没有对SentinelInvocationHandler的访问权限，我们得在自己项目里建立
- *               org.springframework.cloud.alibaba.sentinel.feign包并将新的SentinelFeign放在此包下
+ * @Description: 重新实现org.springframework.cloud.alibaba.sentinel.feign.SentinelFeign
  * @Version 1.0
  */
 public class GlobalSentinelFeign {
