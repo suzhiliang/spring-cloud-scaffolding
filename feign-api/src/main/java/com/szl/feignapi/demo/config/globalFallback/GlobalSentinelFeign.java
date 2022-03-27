@@ -1,9 +1,8 @@
-package org.springframework.cloud.alibaba.sentinel.feign;
+package com.szl.feignapi.demo.config.globalFallback;
 
 import com.alibaba.cloud.sentinel.feign.SentinelContractHolder;
 import com.alibaba.cloud.sentinel.feign.SentinelInvocationHandler;
 import com.alibaba.cloud.sentinel.feign.SentinelTargeterAspect;
-import com.szl.feignapi.demo.config.globalFallback.GlobalFallbackFactory;
 import feign.Contract;
 import feign.Feign;
 import feign.InvocationHandlerFactory;
