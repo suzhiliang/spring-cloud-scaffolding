@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @Description: TODO
  * @Version 1.0
  */
-@FeignClient(value = "core-service-producer",fallback = DemoFeignClientFallback.class)
+@FeignClient(value = "core-service-producer",contextId = "demoFeignClient",fallback = DemoFeignClientFallback.class)
 public interface DemoFeignClient {
 
     @GetMapping(value = "/echo/{param}")
