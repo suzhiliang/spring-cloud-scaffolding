@@ -1,13 +1,13 @@
-package com.szl.springcloudservice;
+package szl.gatewaysample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CoreServiceApplication {
+public class GatewaySampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CoreServiceApplication.class, args);
+        SpringApplication.run(GatewaySampleApplication.class, args);
     }
 
 }

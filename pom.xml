@@ -22,6 +22,7 @@
         <module>core-service</module>
         <module>web-admin</module>
         <module>feign-api</module>
+        <module>gateway-sample</module>
     </modules>
 
 </project>
